@@ -74,5 +74,5 @@ LINE TAXI開發團隊|1.確保應用程式功能全面，符合市場需求。<b
 初步類別圖<br/>
 
 ![alt text](./初步類別圖.png)<div style="page-break-after: always;"></div>
-系統循環圖<br/>
+系統循序圖<br/>
 ![alt text](./系統循序圖.png)
