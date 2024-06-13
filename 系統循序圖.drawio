@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Mip01cM4Fly_g3URmbyJ" name="第1頁">
-        <mxGraphModel dx="1011" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1770" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -12,71 +12,71 @@
                 </mxCell>
                 <mxCell id="10" value="" style="endArrow=classic;html=1;fontSize=25;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="100" y="260" as="sourcePoint"/>
-                        <mxPoint x="970" y="260" as="targetPoint"/>
+                        <mxPoint x="100" y="300" as="sourcePoint"/>
+                        <mxPoint x="970" y="300" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="開啟APP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="10" vertex="1" connectable="0">
+                <mxCell id="14" value="openApp()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="10" vertex="1" connectable="0">
                     <mxGeometry x="-0.7296" relative="1" as="geometry">
                         <mxPoint x="12" y="-20" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="13" value="" style="endArrow=classic;html=1;fontSize=25;dashed=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="970" y="300" as="sourcePoint"/>
-                        <mxPoint x="100" y="300" as="targetPoint"/>
+                        <mxPoint x="970" y="340" as="sourcePoint"/>
+                        <mxPoint x="100" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="16" value="開啟成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="230.00000000000023" y="280" as="geometry"/>
+                <mxCell id="16" value="openAppSuccess()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="230.00000000000023" y="320" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="" style="endArrow=classic;html=1;fontSize=25;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="100" y="340" as="sourcePoint"/>
-                        <mxPoint x="970" y="340" as="targetPoint"/>
+                        <mxPoint x="100" y="380" as="sourcePoint"/>
+                        <mxPoint x="970" y="380" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="綁定帳戶" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="17" vertex="1" connectable="0">
+                <mxCell id="18" value="bindAccount()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="17" vertex="1" connectable="0">
                     <mxGeometry x="-0.7296" relative="1" as="geometry">
-                        <mxPoint x="12" y="-20" as="offset"/>
+                        <mxPoint x="13" y="-20" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="20" value="" style="endArrow=classic;html=1;fontSize=25;dashed=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="970" y="380" as="sourcePoint"/>
-                        <mxPoint x="100" y="380" as="targetPoint"/>
+                        <mxPoint x="970" y="420" as="sourcePoint"/>
+                        <mxPoint x="100" y="420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" value="綁定成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="230.0010344827586" y="360" as="geometry"/>
+                <mxCell id="21" value="bindAccountSuccess()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="230.0010344827586" y="400" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" value="" style="endArrow=classic;html=1;fontSize=25;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="100" y="420" as="sourcePoint"/>
-                        <mxPoint x="970" y="420" as="targetPoint"/>
+                        <mxPoint x="100" y="570" as="sourcePoint"/>
+                        <mxPoint x="970" y="570" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" value="輸入上下車地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="22" vertex="1" connectable="0">
+                <mxCell id="23" value="enterAddresses()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="22" vertex="1" connectable="0">
                     <mxGeometry x="-0.7296" relative="1" as="geometry">
-                        <mxPoint x="12" y="-20" as="offset"/>
+                        <mxPoint x="13" y="-30" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="29" value="" style="endArrow=classic;html=1;fontSize=25;dashed=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="970" y="460" as="sourcePoint"/>
-                        <mxPoint x="100" y="460" as="targetPoint"/>
+                        <mxPoint x="970" y="620" as="sourcePoint"/>
+                        <mxPoint x="100" y="620" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="31" value="輸入成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="230.00114942528734" y="440" as="geometry"/>
+                <mxCell id="31" value="enterAddressesSuccess()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="230.00114942528734" y="600" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="系統管理員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="350" y="70" width="60" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="" style="endArrow=classic;html=1;fontSize=25;dashed=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="965" y="540" as="sourcePoint"/>
-                        <mxPoint x="380" y="540" as="targetPoint"/>
+                        <mxPoint x="965" y="700" as="sourcePoint"/>
+                        <mxPoint x="380" y="700" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="46" value="司機" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
@@ -84,77 +84,79 @@
                 </mxCell>
                 <mxCell id="36" value="" style="endArrow=classic;html=1;fontSize=25;fontStyle=1" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="380" y="500" as="sourcePoint"/>
-                        <mxPoint x="970" y="500" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="47" value="審核成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="500.0011494252874" y="520" as="geometry"/>
-                </mxCell>
-                <mxCell id="48" value="審核訂單" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="500.0011494252874" y="480" as="geometry"/>
-                </mxCell>
-                <mxCell id="49" value="" style="endArrow=classic;html=1;fontSize=25;fontStyle=1" parent="1" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="380" y="580" as="sourcePoint"/>
-                        <mxPoint x="970" y="580" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="50" value="尋找接單司機" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="500.0011494252874" y="560" as="geometry"/>
-                </mxCell>
-                <mxCell id="51" value="" style="endArrow=classic;html=1;fontSize=25;dashed=1;" parent="1" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="640" y="620" as="sourcePoint"/>
-                        <mxPoint x="380" y="620" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="53" value="接收訂單" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="500.0011494252874" y="600" as="geometry"/>
-                </mxCell>
-                <mxCell id="54" value="" style="endArrow=classic;html=1;fontSize=25;" parent="1" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="100" y="660" as="sourcePoint"/>
+                        <mxPoint x="380" y="660" as="sourcePoint"/>
                         <mxPoint x="970" y="660" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="55" value="取得訂單" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="54" vertex="1" connectable="0">
+                <mxCell id="47" value="reviewOrderSuccess()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="510.0011494252874" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="reviewOrder()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="510.0011494252874" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="endArrow=classic;html=1;fontSize=25;fontStyle=1" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="380" y="740" as="sourcePoint"/>
+                        <mxPoint x="640" y="740" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="findDriver()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="510.0011494252874" y="720" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="endArrow=classic;html=1;fontSize=25;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="640" y="780" as="sourcePoint"/>
+                        <mxPoint x="380" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="receiveOrder()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="510.0011494252874" y="760" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="endArrow=classic;html=1;fontSize=25;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="820" as="sourcePoint"/>
+                        <mxPoint x="970" y="820" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="acceptOrder()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="54" vertex="1" connectable="0">
                     <mxGeometry x="-0.7296" relative="1" as="geometry">
                         <mxPoint x="12" y="-20" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="56" value="" style="endArrow=classic;html=1;fontSize=25;dashed=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="970" y="700" as="sourcePoint"/>
-                        <mxPoint x="100" y="700" as="targetPoint"/>
+                        <mxPoint x="970" y="860" as="sourcePoint"/>
+                        <mxPoint x="100" y="860" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="57" value="傳送訂單資訊" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="230.00000000000023" y="680" as="geometry"/>
+                <mxCell id="57" value="sendOrderDetails()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="230.00000000000023" y="840" as="geometry">
+                        <mxPoint x="5" as="offset"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="59" value="" style="endArrow=classic;html=1;fontSize=25;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="100" y="740" as="sourcePoint"/>
-                        <mxPoint x="640" y="740" as="targetPoint"/>
+                        <mxPoint x="100" y="900" as="sourcePoint"/>
+                        <mxPoint x="640" y="900" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="60" value="等待司機" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="59" vertex="1" connectable="0">
+                <mxCell id="60" value="waitingDriver()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="59" vertex="1" connectable="0">
                     <mxGeometry x="-0.7296" relative="1" as="geometry">
                         <mxPoint x="57" y="-20" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="61" value="" style="endArrow=classic;html=1;fontSize=25;dashed=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="640" y="780" as="sourcePoint"/>
-                        <mxPoint x="100" y="780" as="targetPoint"/>
+                        <mxPoint x="640" y="940" as="sourcePoint"/>
+                        <mxPoint x="100" y="940" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="62" value="抵達指定地點" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="510.0028571428571" y="760" as="geometry"/>
+                <mxCell id="62" value="arriveAtPickupLocation()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="510.0028571428571" y="920" as="geometry"/>
                 </mxCell>
                 <mxCell id="63" style="edgeStyle=none;html=1;fontSize=25;endArrow=none;endFill=0;dashed=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="640" y="840" as="targetPoint"/>
+                        <mxPoint x="640" y="960" as="targetPoint"/>
                         <mxPoint x="639.8599999999999" y="200" as="sourcePoint"/>
                         <Array as="points">
                             <mxPoint x="639.8599999999999" y="250"/>
@@ -163,7 +165,7 @@
                 </mxCell>
                 <mxCell id="64" style="edgeStyle=none;html=1;fontSize=25;endArrow=none;endFill=0;dashed=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="380" y="840" as="targetPoint"/>
+                        <mxPoint x="380" y="960" as="targetPoint"/>
                         <mxPoint x="379.9199999999999" y="201" as="sourcePoint"/>
                         <Array as="points">
                             <mxPoint x="379.9199999999999" y="251"/>
@@ -172,7 +174,7 @@
                 </mxCell>
                 <mxCell id="65" style="edgeStyle=none;html=1;fontSize=25;endArrow=none;endFill=0;dashed=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="100" y="840" as="targetPoint"/>
+                        <mxPoint x="100" y="960" as="targetPoint"/>
                         <mxPoint x="99.57999999999993" y="201" as="sourcePoint"/>
                         <Array as="points">
                             <mxPoint x="99.57999999999993" y="251"/>
@@ -181,12 +183,32 @@
                 </mxCell>
                 <mxCell id="66" style="edgeStyle=none;html=1;fontSize=25;endArrow=none;endFill=0;dashed=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="970" y="840" as="targetPoint"/>
+                        <mxPoint x="970" y="960" as="targetPoint"/>
                         <mxPoint x="969.4099999999996" y="150" as="sourcePoint"/>
                         <Array as="points">
                             <mxPoint x="969.4099999999999" y="200"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="" style="endArrow=classic;html=1;fontSize=25;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="460" as="sourcePoint"/>
+                        <mxPoint x="970" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="enterBookingTime()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="68" vertex="1" connectable="0">
+                    <mxGeometry x="-0.7296" relative="1" as="geometry">
+                        <mxPoint x="13" y="-20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="" style="endArrow=classic;html=1;fontSize=25;dashed=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="970" y="510" as="sourcePoint"/>
+                        <mxPoint x="100" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="bookingTimeSuccessfully()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="230.00130434782625" y="490" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
