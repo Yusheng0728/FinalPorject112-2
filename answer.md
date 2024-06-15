@@ -30,8 +30,8 @@ LINE TAXI開發團隊|1.確保應用程式功能全面，符合市場需求。<b
 <div style="page-break-after: always;"></div>
 
 ### 系統使用案例圖<br/>
-![alt text](./系統案例圖.png)
-![alt text](./系統案例圖%20app.png)<br/><div style="page-break-after: always;"></div>
+![alt text](./圖片/系統案例圖.png)
+![alt text](./圖片/系統案例圖%20app.png)<br/><div style="page-break-after: always;"></div>
 ### 使用案例 <br/>
 <br/>
 1.
@@ -80,9 +80,9 @@ LINE TAXI開發團隊|1.確保應用程式功能全面，符合市場需求。<b
 
 ### 初步類別圖<br/>
 
-![alt text](./初步類別圖.png)<div style="page-break-after: always;"></div>
+![alt text](./圖片/初步類別圖.png)<div style="page-break-after: always;"></div>
 ### 系統循序圖<br/>
-![Alt text](./系統循序圖%20英文.png)<br/>
+![Alt text](./圖片/系統循序圖%20英文.png)<br/>
 ### 合約1：開啟APP<br/>
 操作：openApp()<br/>
 交互參照：使用案例———即時叫車申請<br/>
